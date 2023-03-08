@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "warp-launch-configuration",
   "title": "Warp Launch Configuration",
-  "description": "",
+  "description": "Open a Warp Launch Configuration right from Raycast.",
   "icon": "command-icon.png",
   "author": "joetannenbaum",
   "owner": "joe-tannenbaum",
@@ -14,14 +14,15 @@
   "commands": [
     {
       "name": "index",
-      "title": "Show Typeahead Results",
-      "description": "Template for showing typeahead search with network results.",
+      "title": "Warp Launch Configuration",
+      "description": "Open a Warp Launch Configuration.",
       "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.48.7",
-    "@raycast/utils": "^1.4.8"
+    "@raycast/utils": "^1.4.8",
+    "run-jxa": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "18.8.3",
