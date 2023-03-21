@@ -17,7 +17,7 @@ export default function Command() {
         console.log(error);
       }
 
-      setResults(files.map((file) => ({ name: file.replace(".yaml", ""), path: path.join(fullPath, file) })));
+      setResults(files.map((file) => ({ name: file.replace(/.y(a)?ml$/g, ""), path: path.join(fullPath, file) })));
     });
   }, []);
 
